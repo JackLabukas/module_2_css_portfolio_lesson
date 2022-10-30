@@ -12,7 +12,8 @@ I have encountered quite few challanges on CSS, had to google quite few things, 
 - [x] How to use CSS-Flexbox
 - [x] ...
 
-![finished-web-product](https://user-images.githubusercontent.com/87778570/197587999-f3c58a26-b773-4c48-83c6-d89b2616443a.png)
+![finished-2-css](https://user-images.githubusercontent.com/87778570/198907834-9ad417bf-5a9c-4e5b-a96d-90a2c779a4fe.png)
+
 
 # Contact
 
