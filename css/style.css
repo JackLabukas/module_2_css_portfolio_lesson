@@ -1,11 +1,20 @@
+/* Root Variables */
+:root {
+  --light: rgb(168, 218, 220);
+  --dark: rgb(102, 106, 110);
+}
+/* All elements */
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-
+/* Body */
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
   line-height: 1.5;
 }
 
@@ -20,4 +29,91 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* Header and Nav CSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-right: 80px;
+  background-color: var(--dark);
+}
+
+header h1 {
+  background-color: var(--light);
+  padding: 10px 50px 10px 5%;
+  margin: 30px 0 30px 0;
+  color: var(--dark);
+}
+
+header nav a {
+  margin: 0px 40px 0px 0px;
+  font-size: 20px;
+  color: var(--light);
+}
+
+h2 {
+  border-right: 1px solid black;
+}
+
+.hero-banner {
+  display: flex;
+  height: 500px;
+  justify-content: right;
+  align-items: flex-end;
+  background-image: url(../images/02-hero-bg.jpg);
+}
+
+.hero-banner h2 {
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: var(--light);
+  color: var(--dark);
+}
+/* Main content CSS */
+#about {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  grid-template-areas: "about aboutMe";
+  margin: 40px 50px 40px 0px;
+}
+
+#work {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  grid-template-areas: "work images";
+  margin: 40px 50px 40px 0px;
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  grid-template-areas: "contact contactMe";
+  margin: 40px 50px 40px 0px;
+}
+
+#aboutMe {
+  grid-area: aboutMe;
+  margin-left: 20px;
+}
+
+#images {
+  grid-area: images;
+  margin-left: 20px;
+}
+
+#contactMe {
+  grid-area: contactMe;
+  margin-left: 20px;
+}
+
+.page-section h2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px 0px 0px;
 }
