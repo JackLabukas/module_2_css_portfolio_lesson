@@ -73,6 +73,7 @@ h2 {
   justify-content: right;
   align-items: flex-end;
   background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
 }
 
 .hero-banner h2 {
@@ -153,6 +154,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+
   background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
 }
@@ -163,6 +165,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+  height: 95%;
   background-image: url(../images/pre-work.png);
   background-size: cover;
 }
@@ -173,6 +176,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+  height: 95%;
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
 }
@@ -183,6 +187,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+  height: 95%;
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
 }
@@ -193,6 +198,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: end;
+  height: 95%;
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
 }
