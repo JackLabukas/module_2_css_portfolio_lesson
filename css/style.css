@@ -157,17 +157,13 @@ h2 {
   background-size: cover;
 }
 
-.workImg1 h1 a {
-  background-size: cover;
-}
-
 .workImg2 {
   margin: 10px 10px 10px 10px;
   grid-area: workImg2;
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/pre-work.png);
   background-size: cover;
 }
 
