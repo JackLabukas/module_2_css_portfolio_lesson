@@ -12,7 +12,9 @@ I have encountered quite few challanges on CSS, had to google quite few things, 
 - [x] How to use CSS-Flexbox
 - [x] ...
 
-![finished-web-product](https://user-images.githubusercontent.com/87778570/197587999-f3c58a26-b773-4c48-83c6-d89b2616443a.png)
+![finished-css-project](https://user-images.githubusercontent.com/87778570/199117426-041efcde-ad43-480d-aa31-58b7ba38f786.png)
+
+
 
 # Contact
 
