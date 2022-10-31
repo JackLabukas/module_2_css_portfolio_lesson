@@ -4,6 +4,11 @@
   --dark: rgb(102, 106, 110);
   --shadow: 10px 10px 100px var(--dark);
 }
+@media screen and (max-width: 1000px) {
+  .hero-banner {
+    display: none !important;
+  }
+}
 /* All elements */
 * {
   box-sizing: border-box;
