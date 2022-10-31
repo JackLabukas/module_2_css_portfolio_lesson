@@ -63,7 +63,7 @@ h2 {
 .hero-banner {
   display: flex;
   height: 500px;
-  justify-content: right;
+  justify-content: space-between;
   align-items: flex-end;
   background-image: url(../images/02-hero-bg.jpg);
   background-size: cover;
@@ -78,9 +78,11 @@ h2 {
   box-shadow: var(--shadow);
 }
 .hero-banner img {
-  position: relative;
-  right: 73%;
-  bottom: 15%;
+  /* justify-self: flex-start; */
+  /* right: 73%;
+  bottom: 15%; */
+  margin: 0px 0px 50px 50px;
+
   box-shadow: var(--shadow);
 }
 /* Main content CSS */
